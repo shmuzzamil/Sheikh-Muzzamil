@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="button-links-header">
+            <div>
+                  <a style="color:white" href="/" class="header-items">LOGO</a>
+            </div>
+           
+        </div>
+
+        <nav>
+            <a id="send-money" class="nav-link" href="/projects/converter/temperature-convertor/">Temperature
+                Converter</a>
+            <a class="nav-link" href="/projects/converter/currency-converter/">Currency Converter</a>
+            <a class="nav-link" href="/projects/calculator/">Calculator</a>
+<a class="nav-link" href="/projects/personality-test/">Personality Test</a>
+            <a class="nav-link" href="/projects/quiz/">Quiz</a>
+
+        </nav>
+        <div class="button-links-header">
+            <a class="nav-link" href="/">Sign in</a>
+            <a class="nav-button" href="/">Register</a>
+        </div>
+    </header>
+
+    <div class="slider">
+        <p class="slider-heading">Test Your Skils</p>
+        <p class="slider-text">You can test your skills by solving these multiple choice questions.</p>
+
+    </div>
+
+
+    <div class="quiz-main-box">
+
+        <!-- Question 01 -->
+        <div id="question-01" class="quiz-question-wrapper">
+            <h3 class="quiz-question">How do you feel in a large social gathering?</h3>
+            <div class="quiz-option-button-div">
+                <button onclick="submitAnswer(1)" class="quiz-option-button">
+                    Energized and excited.
+                </button>
+                <button onclick="submitAnswer(2)" class="quiz-option-button">
+                    Comfortable and engaged.
+                </button>
+            </div>
+            <div class="quiz-option-button-div">
+                <button onclick="submitAnswer(3)" class="quiz-option-button">
+                    Neutral, I go with the flow.
+                </button>
+                <button onclick="submitAnswer(4)" class="quiz-option-button">
+                    Drained and overwhelmed.
+                </button>
+            </div>
+        </div>
+
+
+        <!-- Question 02 -->
+        <div id="question-02" class="quiz-question-wrapper">
+            <h3 class="quiz-question">How do you recharge after a long day?</h3>
+            <div class="quiz-option-button-div">
+                <button onclick="submitAnswer(1)" class="quiz-option-button">
+                    By spending time with friends or family.
+                </button>
+                <button onclick="submitAnswer(2)" class="quiz-option-button">
+                    By enjoying a mix of socializing and alone time.
+                </button>
+            </div>
+            <div class="quiz-option-button-div">
+                <button onclick="submitAnswer(3)" class="quiz-option-button">
+                    By doing something quiet with a few close friends.
+                </button>
+                <button onclick="submitAnswer(4)" class="quiz-option-button">
+                    By being alone with my thoughts or hobbies.
+                </button>
+            </div>
+        </div>
+        <!-- Question 03 -->
+        <div id="question-03" class="quiz-question-wrapper">
+            <h3 class="quiz-question">How do you usually contribute to group conversations?</h3>
+            <div class="quiz-option-button-div">
+                <button onclick="submitAnswer(1)" class="quiz-option-button">
+                    I’m often the one leading the conversation.
+                </button>
+                <button onclick="submitAnswer(2)" class="quiz-option-button">
+                    I contribute regularly but also listen.
+                </button>
+            </div>
+            <div class="quiz-option-button-div">
+                <button onclick="submitAnswer(3)" class="quiz-option-button">
+                    I speak up when I have something important to say.
+                </button>
+                <button onclick="submitAnswer(4)" class="quiz-option-button">
+                    I mostly listen and only speak when necessary.
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Question 04 -->
+        <div id="question-04" class="quiz-question-wrapper">
+            <h3 class="quiz-question">How do you feel about meeting new people?</h3>
+            <div class="quiz-option-button-div">
+                <button onclick="submitAnswer(1)" class="quiz-option-button">
+                    Excited and eager.
+                </button>
+                <button onclick="submitAnswer(2)" class="quiz-option-button">
+                    Open but cautious.
+                </button>
+            </div>
+            <div class="quiz-option-button-div">
+                <button onclick="submitAnswer(3)" class="quiz-option-button">
+                    A bit reserved, but I warm up quickly.
+                </button>
+                <button onclick="submitAnswer(4)" class="quiz-option-button">
+                    Anxious and hesitant.
+                </button>
+            </div>
+        </div>
+        <!-- Question 05 -->
+        <div id="question-05" class="quiz-question-wrapper">
+            <h3 class="quiz-question">How much alone time do you need to feel balanced?</h3>
+            <div class="quiz-option-button-div">
+                <button onclick="submitAnswer(1)" class="quiz-option-button">
+                    Very little, I thrive on social interactions.
+
+                </button>
+                <button onclick="submitAnswer(2)" class="quiz-option-button">
+                    Some, I enjoy both social time and alone time.
+                </button>
+            </div>
+            <div class="quiz-option-button-div">
+                <button onclick="submitAnswer(3)" class="quiz-option-button">
+                    A fair amount, I value my alone time.
+                </button>
+                <button onclick="submitAnswer(4)" class="quiz-option-button">
+                    Drained and overwhelmed.
+                </button>
+            </div>
+        </div>
+
+        <div id="results">Your score is 
+
+            <span id="final-score">10</span>
+            
+        </div>
+
+        <div id="options" class="quiz-option-button-div">
+            <button class="next-and-previous-buttons">
+                Previous
+            </button>
+            <div class="current-question">
+                1/5
+
+            </div>
+            <button class="next-and-previous-buttons">
+                Next
+            </button>
+        </div>
+
+    </div>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

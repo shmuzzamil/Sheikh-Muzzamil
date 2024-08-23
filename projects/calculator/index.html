@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Html,Css and JS Calculator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #div2 {
+            color: blue;
+            background-color: aqua;
+        }
+
+        #div3 {
+            color: rgb(1, 1, 1);
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="button-links-header">
+            <div>
+                <a style="color:white" href="/" class="header-items">LOGO</a>
+            </div>
+
+        </div>
+
+        <nav>
+            <a id="send-money" class="nav-link" href="/projects/converter/temperature-convertor/">Temperature
+                Converter</a>
+            <a class="nav-link" href="/projects/converter/currency-converter/">Currency Converter</a>
+            <a class="nav-link" href="/projects/calculator/">Calculator</a>
+            <a class="nav-link" href="/projects/personality-test/">Personality Test</a>
+            <a class="nav-link" href="/projects/quiz/">Quiz</a>
+
+        </nav>
+        <div class="button-links-header">
+            <a class="nav-link" href="/">Sign in</a>
+            <a class="nav-button" href="/">Register</a>
+        </div>
+    </header>
+    <div>
+        <input id="input-value" value="0" class="input" type="string">
+    </div>
+
+    <div>
+        <button onclick="ClearScreen()" id="ac-button" class="button white-button ac-button">AC</button>
+        <button class="button white-button">±</button>
+        <button class="button white-button">%</button>
+        <button onclick="onDivision()" class="button yellow-button">÷</button>
+    </div>
+    <div>
+        <button onclick="EnterValue(7)" class="button black-button">7</button>
+        <button onclick="EnterValue(8)" class="button black-button">8</button>
+        <button onclick="EnterValue(9)" class="button black-button">9</button>
+        <button onclick="onMultiplication()" class="button yellow-button">×</button>
+    </div>
+    <div>
+        <button onclick="EnterValue(4)" class="button black-button">4</button>
+        <button onclick="EnterValue(5)" class="button black-button">5</button>
+        <button onclick="EnterValue(6)" class="button black-button">6</button>
+        <button onclick="onSubtraction()" class="button yellow-button">−</button>
+    </div>
+    <div>
+        <button onclick="EnterValue(1)" class="button black-button">1</button>
+        <button onclick="EnterValue(2)" class="button black-button">2</button>
+        <button onclick="EnterValue(3)" class="button black-button">3</button>
+        <button onclick="onAddition()" class="button yellow-button">+</button>
+    </div>
+    <div>
+        <button onclick="EnterValue(0)" class="double-button black-button">0</button>
+        <button onclick="EnterValue('.')" class="button black-button">.</button>
+        <button onclick="onEqualTo()" class="button black-button">=</button>
+
+
+
+        <script src="script.js"> </script>
+
+</body>
+
+</html>

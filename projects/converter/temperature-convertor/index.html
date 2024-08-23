@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+   
+ <header>
+
+    <div class="button-links-header">
+        <div>
+              <a style="color:white" href="/" class="header-items">LOGO</a>
+        </div>
+        
+    </div>
+
+    <nav>
+        <a id="send-money" class="nav-link" href="/projects/converter/temperature-convertor/">Temperature Converter</a>
+        <a class="nav-link" href="/projects/converter/currency-converter/">Currency Converter</a>
+        <a class="nav-link" href="/projects/calculator/">Calculator</a>
+<a class="nav-link" href="/projects/personality-test/">Personality Test</a>
+        <a class="nav-link" href="/projects/quiz/">Quiz</a>
+    
+    </nav>
+    <div class="button-links-header">
+        <a class="nav-link" href="/">Sign in</a>
+        <a class="nav-button" href="/">Register</a>
+    </div>
+</header>
+
+    <div class="slider">
+        <p class="slider-heading">Temperature Converter</p>
+        <p class="slider-text"> It Converts the temperatures among different Units Easily buy yourself</p>
+
+    </div>
+
+
+    <div class="main-box">
+        <div class="form-item">
+
+            <label for="select-temprature">In Which unit you have the Temperature ?</label>
+        <select class="form-item" onchange="currentTemprature()" id="select-temprature">
+
+            <option value="K">Kelvin</option>
+            <option value="C">Celcius</option>
+            <option value="F">Fahrenheit</option>
+        
+        </select>
+        </div>
+        
+        
+            <div class="coverter-form">
+                <div class="form-item">
+                    <label for="tempratureInK">Temperature (K)</label>
+                    <input value="0" id="tempratureInK"  type="number">
+
+                </div>
+                <div class="form-item">
+                    <label for="tempratureInC">Temperature (C)</label>
+                    <input value="0" disabled id="tempratureInC" type="number">
+
+                </div>
+                <div class="form-item">
+                    <label for="tempratureInF">Temperature (F)</label>
+                    <input value="0" disabled id="tempratureInF"  type="number">
+
+                </div>
+            </div>
+            <div class="form-button">
+                <div class="info-box">
+                <div><svg xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 16 16" aria-hidden="true"
+                            style="color:#5c667b;width:14px;height:14px;margin-left:4px">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M8.571 11.429V6.286H6.286v1.143h1.143v4H5.714v1.142h4.572V11.43H8.57zM8 2.857a.857.857 0 100 1.714.857.857 0 000-1.714zM8 16A8 8 0 118 0a8 8 0 010 16zM8 1.143a6.857 6.857 0 100 13.714A6.857 6.857 0 008 1.143z"
+                                clip-rule="evenodd"></path>
+                        </svg> </div> <p> Here is the Temperature Converter you have to select single temperature at once</p>
+                        </div>
+                <div>
+                    <button onclick="onConvert()" id="convertButton" class="nav-button" >Convert</button>
+                </div>
+
+            </div>
+
+
+    </div>
+
+
+</body>
+
+
+<script src="script.js"></script>
+
+</html>
