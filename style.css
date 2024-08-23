@@ -23,8 +23,8 @@ body {
         font-size: 30px;
         position: fixed;
         cursor: pointer;
-        top: 20;
-        right: 20;
+        top: 20px;
+        right: 20px;
     }
     .hamburger-menu-icon {
 
