@@ -1,30 +1,82 @@
-    <header>
+<header>
 
-        <div class="logo-container">
-            <a style="color:white" href="/" class="site-logo">
-               <img src="/images/site-logo.svg" alt="">
-            </a>
-        </div>
-        <div class="button-links-header">
-        </div>
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <div class="logo-container">
+        <a style="color:white" href="/" class="site-logo">
+            <img src="/images/site-logo.svg" alt="">
+        </a>
+    </div>
+    <div class="button-links-header">
+    </div>
 
-        <div class="nav-bar-wrapper" id="nav-bar-wrapper">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <div class="nav-bar-wrapper" id="nav-bar-wrapper">
         <nav class="nav-bar">
-            <div onclick="closeHamburgerMenu()" class="close-menu-button" id="close-menu-button"  ><img src="/images/close-icon.svg" alt=""></div>
-            <a class="nav-link" href="/projects/converter/temperature-convertor/">Temperature Converter</a>
-            <a class="nav-link" href="/projects/converter/currency-converter/">Currency Converter</a>
-            <a class="nav-link" href="/projects/calculator/">Calculator</a>
-            <a class="nav-link" href="/projects/personality-test/">Personality Test</a>
-            <a class="nav-link" href="/projects/quiz/">Quiz</a>
+            <div onclick="closeHamburgerMenu()" class="close-menu-button" id="close-menu-button"><img
+                    src="/images/close-icon.svg" alt=""></div>
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/">About</a>
+            <a class="nav-link" href="/">Contact</a>
+            <a class="nav-link" href="/">Work</a>
+            <div onmouseover="showSubMenu()" class="nav-link sub-menu-button" id="header-sub-menu-button" >
+                
+                <div>
+
+                    Projects
+                </div>
+               
+                <div>
+
+                    <i style="font-size:13px; padding-left: 3px;" class="fa fa-chevron-down" id="submenu-button-down-icon" ></i>
+                    <i style="font-size:13px; padding-left: 3px; display: none;" class="fa fa-chevron-up" id="submenu-button-up-icon"></i>
+                </div>
+                <div  onmouseleave="hideSubMenu()" class="header-sub-menu" id="header-sub-menu"> 
+                    <div>
+
+                        <a href="/projects/calculator/"> <span class="sub-menu-nav-link">Calculator</span> </a>
+                        <a href="/projects/personality-test/"> <span class="sub-menu-nav-link">Personality Test </span></a>
+                        <a href="/projects/quiz/"> <span class="sub-menu-nav-link">Knowledge Quiz </span></a>
+                        <a href="/projects/converter/currency-converter/"> <span class="sub-menu-nav-link">Currency Converter </span></a>
+                        <a href="/projects/converter/temperature-convertor/"> <span class="sub-menu-nav-link">Temp. Converter</span></a>
+                        
+                    </div>
+                    <!-- <div>
+
+                        <a class="sub-menu-nav-link" href="/">calculator</a>
+                        <a class="sub-menu-nav-link" href="/">calculator</a>
+                        <a class="sub-menu-nav-link" href="/">calculator</a>
+                        <a class="sub-menu-nav-link" href="/">calculator</a>
+                        <a class="sub-menu-nav-link" href="/">calculator</a>
+                    </div> -->
+                </div>
+
+            </div>
+
+
+
+
         </nav>
     </div>
-    
-        <div onclick="openHamburgerMenu()" class="hamburger-menu-icon"><img src="/images/hamburger-icon.svg" alt=""></div>
-    
-        <div class="contact-button-container">
-            <img src="/images/call-button.svg" alt="">
-            <a class="contact-button-text" style="color:white" href="https://web.whatsapp.com/send/?phone=%2B923444707184&text&type=phone_number&app_absent=0">
-               Contact
-            </a>
-    </header>
+
+    <div onclick="openHamburgerMenu()" class="hamburger-menu-icon"><img src="/images/hamburger-icon.svg" alt=""></div>
+
+    <div class="contact-button-container">
+        <img src="/images/call-button.svg" alt="">
+        <a class="contact-button-text" style="color:white"
+            href="https://web.whatsapp.com/send/?phone=%2B923444707184&text&type=phone_number&app_absent=0">
+            Contact
+        </a>
+
+
+</header>
+

@@ -26,3 +26,37 @@ function closeHamburgerMenu() {
 }
 
 
+
+// sub menu script starts 
+
+
+function showSubMenu() {
+
+    const upArrow = document.getElementById("submenu-button-up-icon")
+const downArrow = document.getElementById("submenu-button-down-icon")
+
+const subMenu = document.getElementById("header-sub-menu")
+
+    subMenu.style.display = "flex"
+    upArrow.style.display = "flex"
+    downArrow.style.display = "none"
+
+    console.log("menuOpen")
+
+}
+function hideSubMenu(){
+
+    const upArrow = document.getElementById("submenu-button-up-icon")
+const downArrow = document.getElementById("submenu-button-down-icon")
+
+const subMenu = document.getElementById("header-sub-menu")
+    subMenu.style.display = "none"
+    upArrow.style.display = "none"
+    downArrow.style.display = "flex"
+
+    console.log("menuClose")
+
+}
+
+
+// sub menu script ends 
