@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 
 <head>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -13,14 +13,70 @@
 <body>
 
     <div id="header"></div>
-    
-    <p>Home Page</p>
 
-    <div style=" background-color: #1A86FA; text-align: left; padding: 10px; margin:10px 1000px 10px 0px ;">
-        <h1>F &ensp; U <br> R &ensp; N</h1>
+
+    <div class="homepage-bg-image">
+
+        <img src="/images/home-page-bg-image.png" alt="">
+
+        <h1>Welcome To My <br> Creative Space</h1>
+
     </div>
-<script src="script.js"></script>
-<script src="/components/header/script.js"></script>
+
+
+    <!-- <div class="homepage-paragraphs-container">
+        <div>
+            <p>
+                I’m Muzzamil, a computer science student passionate about JavaScript, HTML, and CSS. I spend my free
+                time
+                coding and exploring new technologies.
+            </p>
+
+            <button class="homepage-buttons" role="button">About Me</button>
+        </div>
+        <div>
+            <p>
+                My goal is to become a skilled programmer, driven by a love for tech and a commitment to continuous
+                growth.
+            </p>
+           
+                <button class="homepage-buttons" role="button">My Projets</button>
+           
+        </div>
+    </div> -->
+
+
+    <div class="homepage-paragraph-buttons-and-marquee-container">
+        <div class="homepage-slide-text">
+            <marquee loop="-1" behavior="scroll" scrollamount="5" scrolldelay="50" direction="left">Creative &ensp;
+                Visionary&ensp; Imaginative&ensp; Inventive</marquee>
+        </div>
+    </div>
+
+    <div class="homepage-paragraphs-container">
+        <div class="heading">
+            <h3>I am a web developer by trade
+            </h3>
+        </div>
+
+        <div class="homepage-paragraps">
+            <p>
+                I am a web developer by profession, passionate about creating dynamic and user-friendly websites. With a
+                strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive and visually
+                appealing web applications. My focus is on crafting seamless user experiences, whether through front-end
+                development or integrating back-end functionalities.
+                <br> <br>I continuously strive to stay updated with the
+                latest web technologies and best practices, ensuring that my work not only meets but exceeds industry
+                standards. Web development isn't just my job—it's a craft that I approach with dedication and creativity
+                every day.
+            </p>
+
+            <button class="homepage-buttons" role="button">My Projects</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="/components/header/script.js"></script>
 </body>
 
 </html>
