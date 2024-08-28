@@ -107,22 +107,23 @@ body {
     display: flex;
     gap: 2px;
     align-items: center;
-    
+
 }
-.sub-menu-button:hover{
-  border: none!important;
- 
+
+.sub-menu-button:hover {
+    border: none !important;
+
 }
 
 .header-sub-menu {
 
     position: absolute;
-display: none;
+    display: none;
     top: 50px;
     right: 0;
     gap: 30px;
-   
-width: 200px;
+
+    width: 200px;
     z-index: 30;
     border-radius: 10px;
     padding: 20px 30px 20px 30px;
@@ -131,7 +132,8 @@ width: 200px;
 
 
 }
-.header-sub-menu div a{
+
+.header-sub-menu div a {
 
     text-decoration: none;
     padding-bottom: 5px;
@@ -209,9 +211,11 @@ header {
 
 .logo-container {
     position: absolute;
-    top: 40px;
-    left: 60px;
+  top: 40;
+left: 40px;
+
 }
+
 
 .contact-button-container {
     position: absolute;
@@ -264,8 +268,9 @@ header {
 }
 
 .slider {
+
     padding: 50px 0px 200px 0px;
-    background-color: #0A146E;
+    background-color: #000000;
 
 }
 

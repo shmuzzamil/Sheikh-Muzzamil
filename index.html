@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 
-<body>
+<body onclick="hideSubMenu()">
 
     <div id="header"></div>
 
@@ -48,9 +48,11 @@
 
     <div class="homepage-paragraph-buttons-and-marquee-container">
         <div class="homepage-slide-text">
-            <marquee loop="-1" behavior="scroll" scrollamount="5" scrolldelay="50" direction="left">Creative &ensp;
+            <marquee id="homepage-marquee" loop="-1" behavior="scroll" scrollamount="5" scrolldelay="50" direction="left">Creative &ensp;
                 Visionary&ensp; Imaginative&ensp; Inventive</marquee>
-        </div>
+
+
+            </div>
     </div>
 
     <div class="homepage-paragraphs-container">
