@@ -58,6 +58,23 @@ const subMenu = document.getElementById("header-sub-menu")
 
 }
 
-
 // sub menu script ends 
 
+
+function onSocialIconClick() {
+
+    const icons = document.getElementById("social-media-share-icons")
+
+
+if (icons.style.display==="none"){
+
+    icons.style.display = "flex"
+
+}
+else{
+
+    icons.style.display = "none"
+
+}
+
+}

@@ -2,12 +2,23 @@
 <html lang="en">
 
 
+
 <head>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Default Page / Home Page</title>
+    <title>Home | M Tech</title>
     <link rel="stylesheet" href="/style.css">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" sizes="32x32" href="/images/favicon/favicon.ico">
+    <link rel="icon" sizes="16x16" href="/images/favicon/favicon.ico">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+
+
+
 </head>
 
 <body onclick="hideSubMenu()">
@@ -48,16 +59,17 @@
 
     <div class="homepage-paragraph-buttons-and-marquee-container">
         <div class="homepage-slide-text">
-            <marquee id="homepage-marquee" loop="-1" behavior="scroll" scrollamount="5" scrolldelay="50" direction="left">Creative &ensp;
+            <marquee id="homepage-marquee" loop="-1" behavior="scroll" scrollamount="5" scrolldelay="50"
+                direction="left">Creative &ensp;
                 Visionary&ensp; Imaginative&ensp; Inventive</marquee>
 
 
-            </div>
+        </div>
     </div>
 
     <div class="homepage-paragraphs-container">
         <div class="heading">
-            <h3>I am a Web Developer by Trade 
+            <h3>I am a Web Developer by Trade
             </h3>
         </div>
 
@@ -77,8 +89,45 @@
         </div>
     </div>
 
+
+    <div class="social-media-share-icon-container">
+
+        <div class="social-media-share-icons" id="social-media-share-icons">
+
+            <a style="padding: 4px;" href="https://www.facebook.com/why.muzzamil">
+                <img class="facebook-icon" src="images/social-media-icons/facebook-icon.svg"
+                    alt="">
+            </a>
+
+            <a href="https://www.instagram.com/why_muzzamil">
+                <img src="images/social-media-icons/instagram-icon.svg" alt="">
+            </a>
+
+            <a style="padding: 4px;" href="/">
+                <img src="images/social-media-icons/twitter-icon.svg" alt="">
+            </a>
+
+            <a style="padding: 4px;" href="https://wa.me/+923444707184">
+                <img src="images/social-media-icons/whatsapp-icon.svg" alt="">
+            </a>
+
+
+        </div>
+        <img onclick="onSocialIconClick()" id="share-icon"
+            style="padding: 4px; border-radius: 100px; border:solid 2px #d9d9d9;"
+            src="images/social-media-icons/social-media-share-icon.svg" alt="">
+
+
+    </div>
+
+
     <script src="script.js"></script>
     <script src="/components/header/script.js"></script>
+
+
+
+
+
 </body>
 
 </html>

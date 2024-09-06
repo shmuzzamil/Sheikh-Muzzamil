@@ -211,8 +211,8 @@ header {
 
 .logo-container {
     position: absolute;
-  top: 40;
-left: 40px;
+    top: 40;
+    left: 40px;
 
 }
 
@@ -344,7 +344,6 @@ left: 40px;
     position: relative;
     height: 500px;
     width: 100%;
-    color: white;
     text-align: center;
     margin-top: 0px;
 }
@@ -360,7 +359,7 @@ left: 40px;
 
 .homepage-bg-image h1 {
 
-
+    color: #d9d9d9;
     font-size: 110px;
     position: absolute;
     top: 0;
@@ -503,4 +502,29 @@ left: 40px;
     height: 100%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 100%);
     opacity: 1;
+}
+
+
+.social-media-share-icon-container {
+
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    z-index: 30;
+    cursor: pointer;
+
+
+}
+
+.social-media-share-icons {
+
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+#share-icon{
+
+    margin-top: 10px;
 }
